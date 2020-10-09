@@ -1,0 +1,42 @@
+@prefix: cbd-search-bar;
+
+.@{prefix} {
+  height: 26px;
+  line-height: 24px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: #999999;
+  padding: 0;
+  padding-left: 8px;
+
+  .ant-input-suffix {
+    right: 5px;
+  }
+
+  .ant-input {
+    padding: 0 10px;
+    height: 24px;
+    border-radius: 0;
+    background-color: transparent;
+    border-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+
+  .ant-input-search-icon:hover {
+    color: #ffffff;
+  }
+
+  .anticon {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 5px;
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .ant-input-search-icon::before {
+    display: none;
+  }
+}

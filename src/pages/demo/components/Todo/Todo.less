@@ -1,0 +1,19 @@
+.root {
+  width: 50%;
+  .list {
+    margin-top: 8px;
+    :global {
+      .ant-list-item:hover {
+        background-color: #8dc4c4;
+        color: #fff;
+      }
+    }
+    .active {
+      background-color: #5e9797;
+      color: #fff;
+      &:hover {
+        background-color: #5e9797;
+      }
+    }
+  }
+}
